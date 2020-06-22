@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"incremental": true,
+		"noEmitOnError": true,
+		"noImplicitReturns": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitAny": true,
+		"removeComments": true,
+		"outDir": "dist",
+		"strict": true,
+		"esModuleInterop": true,
+		"moduleResolution": "Node",
+		"lib": ["ES2019"],
+		"module": "commonjs",
+		"target": "ES2019",
+		"resolveJsonModule": true
+	},
+	"compileOnSave": true,
+	"include": ["src/**/*.ts"]
+}
